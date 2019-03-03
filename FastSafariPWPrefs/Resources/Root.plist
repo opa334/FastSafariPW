@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Make sure the extensions are also enabled inside the share sheet of Safari!</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.opa334.fastsafaripwprefs</string>
+			<key>PostNotification</key>
+			<string>com.opa334.fastsafaripwprefs/ReloadPrefs</string>
+			<key>key</key>
+			<string>onePasswordButtonEnabled</string>
+			<key>label</key>
+			<string>1Password Button</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.opa334.fastsafaripwprefs</string>
+			<key>PostNotification</key>
+			<string>com.opa334.fastsafaripwprefs/ReloadPrefs</string>
+			<key>key</key>
+			<string>lastPassButtonEnabled</string>
+			<key>label</key>
+			<string>LastPass Button</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>FastSafariPW</string>
+</dict>
+</plist>
