@@ -4,6 +4,8 @@ Depends: firmware (<=10.3.3), mobilesubstrate, ws.hbang.common
 Version: 1.0
 Architecture: iphoneos-arm
 Description: A fast way to access 1Password or LastPass!
+Depiction: https://opa334.github.io/depic/FastSafariPW/index.html
+Homepage: https://opa334.github.io/
 Maintainer: opa334
 Author: opa334
 Section: Tweaks
